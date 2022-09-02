@@ -1,0 +1,96 @@
+.navbar{
+  display:flex;
+  background-color:#F55A5A ;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  width: 100%;
+}
+.navbar .journel{
+  color: white;
+  margin-left: 10px;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card{
+  display: flex;
+  height: 220px;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center;
+  width: 700px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  margin-top: 35px;
+}
+@media(max-width:810px){
+  .card{
+    width:600px;
+  }
+}
+@media(max-width:762px){
+  .card{
+    width:500px;
+  }
+}
+@media(max-width:590px){
+  .card{
+    width:400px;
+    padding: 10px;
+  }
+}
+@media(max-width:515px){
+  .card{
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  }
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  margin-left: 20px;
+}
+.topcontent{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.topcontent p{
+  margin: 0;
+  padding: 0;
+  font-size:10.24px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.topcontent a{
+  color: #918E9B;
+  font-size:10.24px ;
+}
+.card-image{
+  border-radius: 5px;
+}
+
+.about h1{
+  font-size: 25px;
+  margin-top: 0;
+  color: #2B283A;
+}
+.about strong{
+  font-size: 10.24px;
+  color: #2B283A;
+}
+.about p{
+  font-size: 10.24px;
+  color: #2B283A;
+  margin: 0;
+  margin-top: 5px;
+}
